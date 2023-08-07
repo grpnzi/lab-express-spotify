@@ -1,0 +1,9 @@
+<div class="card">
+    {{#with images.[0]}}
+        <img class="card-img" src="{{url}}" />
+    {{/with}}
+    <div class="card-footer">
+        <h3>{{name}}</h3>
+        <button><a href="{{external_urls.spotify}}">View Album</a></button>
+    </div>
+</div>

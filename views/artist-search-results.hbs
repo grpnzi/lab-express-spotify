@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Artist</title>
+    <link rel="stylesheet" href="/styles/style.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="row">
+            {{#each artistData}}
+            {{> artistCard this}}
+            {{/each}}
+        </div>
+    </div>
+
+</body>
+
+</html>

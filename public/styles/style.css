@@ -1,0 +1,16 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background-color: aqua;
+    width: 100%;
+    height: 100%;
+}
+
+.formSearch {
+    background-color: rgb(51, 255, 0);
+    width: 50%;
+    height: 30vh;
+}
